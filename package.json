@@ -37,4 +37,5 @@
     "android": {
       "packageImportPath": "import com.zxcpoiu.incallmanager.InCallManagerPackage;"
     }
+  }
 }
