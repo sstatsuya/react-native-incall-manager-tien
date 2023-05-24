@@ -29,5 +29,12 @@
   "homepage": "https://github.com/react-native-webrtc/react-native-incall-manager#readme",
   "peerDependencies": {
     "react-native": ">=0.40.0"
-  }
+  },
+  "rnpm": {
+    "ios": {
+      "podspecPath": "./ios/react-native-incall-manager.podspec"
+    },
+    "android": {
+      "packageImportPath": "import com.zxcpoiu.incallmanager.InCallManagerPackage;"
+    }
 }
